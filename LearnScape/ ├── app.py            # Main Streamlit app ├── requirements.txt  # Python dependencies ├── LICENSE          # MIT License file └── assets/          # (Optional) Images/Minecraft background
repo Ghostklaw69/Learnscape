@@ -1,0 +1,13 @@
+# Navigate to your project folder
+cd path/to/LearnScape
+
+# Initialize Git (if not done)
+git init
+
+# Add files
+git add .
+git commit -m "Initial upload: All LearnScape files"
+
+# Link to GitHub
+git remote add origin https://github.com/yourusername/LearnScape.git
+git push -u origin main
